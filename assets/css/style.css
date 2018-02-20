@@ -13,6 +13,7 @@ body {
 	background-color: #ffffff;
 	border: 1px solid #ddd;
 	padding: 15px;
+	margin-bottom: 100px;
 }
 
 
@@ -36,8 +37,6 @@ body {
 	font-weight: 700px;
 	padding-top: 0;
 }
-
-
 
 li a {
 	border-right: 1px solid #efefef;
@@ -71,12 +70,15 @@ h3 {
 	color:#ffffff;
 }
 
-
-
 .thumbnail,
 .thumbnail img {
 	border: 0 none;
 
+}
+
+#img-thumbnail {
+	width: auto;
+	height: 150px;
 }
 
 .col-md-3 {
